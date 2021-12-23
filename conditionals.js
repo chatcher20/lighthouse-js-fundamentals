@@ -1,11 +1,50 @@
-let age=12
 const whichSchool = function(age) {
-  if(age<13) {
-    console.log("Elementary School")
-  } else if(age <=18) {
-    console.log("Secondary School")
-  } else console.log("Lighthouse Labs")
+  if(age < 13) {
+    return "Elementary School" }
+  else if(age <= 18) {
+    return "Secondary School" }
+  else {
+    return "Lighthouse Labs" }
 }
+
+console.log(whichSchool(19))
+
+
+/*
+const whichSchool  = function (age) {
+  let x = ""
+  for ( let i =)
+
+
+
+
+    if(age<13) {
+      console.log("Elementary School")
+    } else if(age <=18) {
+      console.log("Secondary School")
+    } else console.log("Lighthouse Labs")
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function toCelsius(fahrenheit) {
@@ -35,7 +74,7 @@ const whichSchool  = function (age) {
   // Your code in here ...
 }
 
-*/
+
 
 
 
@@ -105,4 +144,4 @@ while (n >= 0) { //when to stop
 
 
 
-
+*/
