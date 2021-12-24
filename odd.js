@@ -4,4 +4,3 @@ function isOdd(x) {
 console.log(isOdd(5))
 
 
-
